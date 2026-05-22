@@ -1,0 +1,49 @@
+<html lang+"pt-br">
+	<head>
+		<meta charset+"utf-8">
+		<title>Tabela</title>
+	</head>
+
+	<body>
+		<table>
+			<tr>
+				<th>Sabor</th>
+				<th>Preço</th>
+				<th>Quantidade</th>
+				<th>Cliente</th>
+				<th>Ilustração</th>
+			</tr>
+			
+			<tr>
+				<td>Pizza</t,d>
+				<td>R$ 18,99</td>
+				<td> 2 </td>
+				<td>Adryel</td>
+				<td>
+				<img style ="width: 200px"src="pastel_pizza.jpg">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Carne</t,d>
+				<td>R$ 18,99</td>
+				<td> 5 </td>
+				<td>Adryel</td>
+				<td>
+				<img style ="width: 200px"src="pastel_carne.jpg">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>Frango Catupiry</t,d>
+				<td>R$ 24,00</td>
+				<td> 1 </td>
+				<td>Adryel</td>
+				<td>
+				<img style ="width: 200px"src="pastel_frango_catupiry.jpg">
+				</td>
+			</tr>
+		</table>
+	</body>
+
+</html>
