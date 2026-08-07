@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pastelaria do Luisinho</title>
+
+        <style>
+            h1, p, label {
+                font-family:Arial, Helvetica, sans-serif
+            }
+            .centralizar{
+                text-align:center;
+            }
+
+                main{
+                display:flex;
+            justify-content:center;
+            }
+             form{
+                background-color:rgb(255, 196, 0);
+                padding:20px;
+                width:60%;
+                display: grid;
+                border-radius: 20px;
+            }
+
+            img{
+                width:20%;
+                display:block;
+                margin:auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="imagens/logo.png" alt="">
+            <h1 class="centralizar">Formulário de Inscrição</h1>
+            <p class="centralizar">Inscrição para experimentar e avaliar os deliciosos pastéis da Pastelaria do Luisinho.</p>
+           
+        </header>
+        
+        <main>
+            
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+
+                <label for="tel">Telefone (apenas números):</label>
+                <input type="number" id="tel">
+
+                <label for="senha">Senha de acesso ao sistema:</label>
+                <input type="password" id="senha">
+
+                <label for="confirmacao-senha">Confirmação da senha:</label>
+                <input type="password" id="confirmacao-senha">
+
+                <p> Selecione os sabores favoritos</p>
+                <div> 
+                    <label><input type="checkbox">Queijo</label>
+                    <label><input type="checkbox">Calabresa</label>
+                    <label><input type="checkbox">Frango com Catupiry</label>
+                    <label><input type="checkbox">Carne</label>
+                    <label><input type="checkbox">Frango</label>
+                </div>
+
+                <label for="comentário">Comentário sobre os pastéis:</label>
+                <textarea rows="4" id="comentário"> </textarea>
+
+                <button type="submit"> Enviar Inscrição</button>
+            </form>
+        </main>
+    </body>
+</html>
